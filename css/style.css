@@ -179,3 +179,7 @@ form {
   position: relative;
 }
 
+.task {
+  position: relative;
+  margin-bottom: 1.25em;
+}

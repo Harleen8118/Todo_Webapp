@@ -75,6 +75,14 @@ form {
   color: var(--clr-warning);
 }
 
-
-
-
+.new {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  border-bottom: 1px solid currentColor;
+  font-size: inherit;
+  outline: none;
+  padding: 0.25em;
+  transition: border-bottom 150ms ease-in;
+  order: 2;
+}

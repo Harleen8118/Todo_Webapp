@@ -102,3 +102,7 @@ form {
 .new::placeholder {
   opacity: 0.4;
 }
+
+.new:focus {
+  border-bottom-width: 3px;
+}

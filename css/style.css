@@ -246,3 +246,9 @@ form {
   transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
 }
 
+[type="checkbox"]:checked + label::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}

@@ -159,3 +159,7 @@ form {
   font-size: 1rem;
 }
 
+.todo-body {
+  padding: var(--spacer);
+  position: relative;
+}

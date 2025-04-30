@@ -119,3 +119,6 @@ form {
   opacity: 0.15;
 }
 
+.new:focus::placeholder {
+  opacity: 0.15;
+}

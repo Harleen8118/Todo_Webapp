@@ -107,3 +107,6 @@ form {
   border-bottom-width: 3px;
 }
 
+.new:focus::-webkit-input-placeholder {
+  opacity: 0.15;
+}

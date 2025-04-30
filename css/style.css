@@ -123,3 +123,6 @@ form {
   opacity: 0.15;
 }
 
+.new.list {
+  font-size: 1.1rem;
+}

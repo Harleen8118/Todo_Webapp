@@ -71,4 +71,6 @@ form {
   transition: color 200ms;
 }
 
-
+.btn.delete:hover {
+  color: var(--clr-warning);
+}

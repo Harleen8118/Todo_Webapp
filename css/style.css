@@ -150,3 +150,6 @@ form {
   justify-content: space-between;
 }
 
+.list-title {
+  margin: 0 1em 0 0;
+}

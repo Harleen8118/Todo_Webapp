@@ -135,3 +135,9 @@ form {
   font-weight: 700;
 }
 
+.todo-list {
+  --spacer: 2rem;
+  grid-area: active;
+  background: var(--clr-light);
+  color: var(--clr-dark);
+}

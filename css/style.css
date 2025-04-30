@@ -60,3 +60,7 @@ form {
   margin-right: 0.25em;
   transition: opacity 250ms ease-in;
 }
+
+.btn.create:hover {
+  opacity: 0.7;
+}

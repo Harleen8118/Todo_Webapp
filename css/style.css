@@ -27,3 +27,9 @@ body {
   grid-area: lists;
 }
 
+.task-list {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  list-style: circle;
+  padding-left: 1.1em;
+}

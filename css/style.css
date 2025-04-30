@@ -6,3 +6,9 @@
 }
 
 
+*,
+*::before,
+*::after {
+  font-family: inherit;
+  box-sizing: border-box;
+}

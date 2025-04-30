@@ -195,3 +195,18 @@ form {
   opacity: 0.1;
 }
 
+.custom-checkbox {
+  --size: 0.75em;
+  display: inline-block;
+  width: var(--size);
+  height: var(--size);
+  margin-right: var(--size);
+  cursor: pointer;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}

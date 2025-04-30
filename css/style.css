@@ -87,3 +87,6 @@ form {
   order: 2;
 }
 
+.new::-webkit-input-placeholder {
+  opacity: 0.4;
+}

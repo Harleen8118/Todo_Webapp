@@ -163,3 +163,7 @@ form {
   padding: var(--spacer);
   position: relative;
 }
+
+.new-task-creator .create {
+  color: var(--clr-primary);
+}

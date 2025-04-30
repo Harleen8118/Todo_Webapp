@@ -127,3 +127,6 @@ form {
   font-size: 1.1rem;
 }
 
+.new.task {
+  margin-bottom: 0;
+}

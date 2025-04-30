@@ -95,3 +95,6 @@ form {
   opacity: 0.4;
 }
 
+.new::-ms-input-placeholder {
+  opacity: 0.4;
+}

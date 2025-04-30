@@ -115,3 +115,6 @@ form {
   opacity: 0.15;
 }
 
+.new:focus::-ms-input-placeholder {
+  opacity: 0.15;
+}

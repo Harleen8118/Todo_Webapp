@@ -173,3 +173,8 @@ form {
   position: absolute;
 }
 
+.task label {
+  display: flex-inline;
+  align-items: center;
+  position: relative;
+}

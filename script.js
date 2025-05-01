@@ -22,3 +22,13 @@ listsContainer.addEventListener('click', e => {
     saveAndRender()
   }
 })
+
+tasksContainer.addEventListener('click', e => {
+  if (e.target.tagName.toLowerCase() === 'input') {
+    const selectedList = lists.find(list => list.id === selectedListId)
+    const selectedTask = selectedList.tasks.find(task => task.id === e.target.id)
+    selectedTask.complete = e.target.checked
+    save()
+    renderTaskCount(selectedList)
+  }
+})

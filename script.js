@@ -45,3 +45,12 @@ deleteListButton.addEventListener('click', e => {
   saveAndRender()
 })
 
+newListForm.addEventListener('submit', e => {
+  e.preventDefault()
+  const listName = newListInput.value
+  if (listName == null || listName === '') return
+  const list = createList(listName)
+  newListInput.value = null
+  lists.push(list)
+  saveAndRender()
+})

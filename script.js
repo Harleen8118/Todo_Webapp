@@ -38,3 +38,7 @@ clearCompleteTasksButton.addEventListener('click', e => {
   selectedList.tasks = selectedList.tasks.filter(task => !task.complete)
   saveAndRender()
 })
+
+
+
+

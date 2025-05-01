@@ -39,6 +39,3 @@ clearCompleteTasksButton.addEventListener('click', e => {
   saveAndRender()
 })
 
-
-
-

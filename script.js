@@ -45,5 +45,3 @@ deleteListButton.addEventListener('click', e => {
   saveAndRender()
 })
 
-
-

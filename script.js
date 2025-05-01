@@ -39,3 +39,8 @@ clearCompleteTasksButton.addEventListener('click', e => {
   saveAndRender()
 })
 
+deleteListButton.addEventListener('click', e => {
+  lists = lists.filter(list => list.id !== selectedListId)
+  selectedListId = null
+  saveAndRender()
+})

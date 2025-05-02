@@ -59,3 +59,7 @@ function createList(name) {
   return { id: Date.now().toString(), name: name, tasks: [] }
 }
 
+function saveAndRender() {
+  save()
+  render()
+}

@@ -122,3 +122,5 @@ function clearElement(element) {
     element.removeChild(element.firstChild)
   }
 }
+
+render()

@@ -104,3 +104,15 @@ function renderTaskCount(selectedList) {
   listCountElement.innerText = `${incompleteTaskCount} ${taskString} remaining`
 }
 
+function renderLists() {
+  lists.forEach(list => {
+    const listElement = document.createElement('li')
+    listElement.dataset.listId = list.id
+    listElement.classList.add("list-name")
+    listElement.innerText = list.name
+    if (list.id === selectedListId) {
+      listElement.classList.add('active-list')
+    }
+    listsContainer.appendChild(listElement)
+  })
+}

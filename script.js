@@ -55,3 +55,7 @@ newListForm.addEventListener('submit', e => {
   saveAndRender()
 })
 
+function createList(name) {
+  return { id: Date.now().toString(), name: name, tasks: [] }
+}
+

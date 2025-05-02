@@ -63,6 +63,3 @@ function saveAndRender() {
   save()
   render()
 }
-
-
-
